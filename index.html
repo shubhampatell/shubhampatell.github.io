@@ -206,4 +206,127 @@ href="https://youtube.com/@shubham_ythu?si=NzAPpLI6quGmhMVB"
 target="_blank">
 <i class="fab fa-youtube"></i>
 YouTube
-</a>
+</a></div>
+
+</div>
+
+<div class="right">
+
+<img src="profile.jpg" class="profile">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Shubham Patel • All Rights Reserved</p>
+
+</footer>
+
+<script>
+
+const text="Shubham Patel";
+let i=0;
+
+const title=document.querySelector("h1 span");
+
+title.innerHTML="";
+
+function typing(){
+
+if(i<text.length){
+
+title.innerHTML+=text.charAt(i);
+
+i++;
+
+setTimeout(typing,120);
+
+}
+
+}
+
+typing();
+
+for(let i=0;i<80;i++){
+
+let star=document.createElement("div");
+
+star.style.position="fixed";
+
+star.style.width="2px";
+
+star.style.height="2px";
+
+star.style.borderRadius="50%";
+
+star.style.background="white";
+
+star.style.left=Math.random()*100+"vw";
+
+star.style.top=Math.random()*100+"vh";
+
+star.style.opacity=Math.random();
+
+star.style.animation="twinkle "+(2+Math.random()*4)+"s infinite";
+
+document.body.appendChild(star);
+
+}
+
+const style=document.createElement("style");
+
+style.innerHTML=`
+
+@keyframes twinkle{
+
+0%{opacity:.2;transform:scale(.5);}
+
+50%{opacity:1;transform:scale(1.5);}
+
+100%{opacity:.2;transform:scale(.5);}
+
+}
+
+`;
+
+document.head.appendChild(style);
+
+document.addEventListener("mousemove",e=>{
+
+let glow=document.createElement("div");
+
+glow.style.position="fixed";
+
+glow.style.left=e.clientX+"px";
+
+glow.style.top=e.clientY+"px";
+
+glow.style.width="10px";
+
+glow.style.height="10px";
+
+glow.style.borderRadius="50%";
+
+glow.style.background="#00e5ff";
+
+glow.style.boxShadow="0 0 20px #00e5ff";
+
+glow.style.pointerEvents="none";
+
+document.body.appendChild(glow);
+
+setTimeout(()=>{
+
+glow.remove();
+
+},400);
+
+});
+
+</script>
+
+</body>
+
+</html>
