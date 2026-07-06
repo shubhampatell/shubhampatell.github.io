@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$HUBHAM PATEL</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="card">
+
+<img src="profile.jpg" alt="Profile" class="profile">
+
+<h1>$HUBHAM PATEL</h1>
+
+<p class="bio">
+Content Creator • Tech • Gaming
+</p>
+
+<div class="buttons">
+
+<a href="https://wa.me/919359698643" target="_blank" class="btn">
+💬 WhatsApp
+</a>
+
+<a href="https://www.instagram.com/shubhampatelllllll?igsh=MXNtdHZmb3Fhdmg2cg==" target="_blank" class="btn">
+📷 Instagram
+</a>
+
+<a href="https://youtube.com/@shubham_ythu?si=NzAPpLI6quGmhMVB" target="_blank" class="btn">
+▶ YouTube
+</a>
+
+</div>
+
+<footer>
+© 2026 $HUBHAM PATEL
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
