@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham Patel | Official</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+overflow-x:hidden;
+color:white;
+min-height:100vh;
+}
+
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 15% 20%,#3b82f6 0%,transparent 25%),
+radial-gradient(circle at 80% 25%,#9333ea 0%,transparent 30%),
+radial-gradient(circle at 50% 90%,#06b6d4 0%,transparent 35%);
+filter:blur(40px);
+animation:bgmove 12s linear infinite alternate;
+z-index:-2;
+}
+
+@keyframes bgmove{
+0%{transform:scale(1);}
+100%{transform:scale(1.25);}
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#00e5ff;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:60px 8%;
+gap:50px;
+}
+
+.left{
+flex:1;
+}
+
+.right{
+flex:1;
+display:flex;
+justify-content:center;
+}
+
+.profile{
+width:320px;
+height:320px;
+border-radius:50%;
+object-fit:cover;
+border:6px solid #00e5ff;
+box-shadow:
+0 0 25px #00e5ff,
+0 0 60px #00e5ff;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+50%{
+transform:translateY(-15px);
+}
+}
+
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:30px;
+padding:40px;
+}
+
+h1{
+font-size:65px;
+line-height:1.1;
+margin-bottom:15px;
+}
+
+h1 span{
+color:#00e5ff;
+}
+
+.subtitle{
+font-size:20px;
+opacity:.85;
+margin-bottom:35px;
+}
+
+.buttons{
+display:flex;
+flex-direction:column;
+gap:18px;
+}
+
+.btn{
+text-decoration:none;
+padding:18px 22px;
+border-radius:18px;
+font-size:18px;
+font-weight:600;
+display:flex;
+align-items:center;
+gap:12px;
+color:white;
+transition:.35s;
+}
+
+.btn:hover{
+transform:translateX(8px) scale(1.04);
+}
+
+.whatsapp{background:#25D366;}
+.instagram{background:#E1306C;}
+.youtube{background:#ff0000;}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.profile{
+width:220px;
+height:220px;
+}
+
+h1{
+font-size:42px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+<div class="logo">Shubham Patel</div>
+</div>
+
+<section class="hero">
+
+<div class="left">
+
+<div class="glass">
+
+<h1>Hello, I'm <span>Shubham Patel</span></h1>
+
+<p class="subtitle">
+Content Creator • Tech • YouTuber
+</p>
+
+<div class="buttons">
+
+<a class="btn whatsapp"
+href="https://wa.me/919359698643"
+target="_blank">
+<i class="fab fa-whatsapp"></i>
+WhatsApp
+</a>
+
+<a class="btn instagram"
+href="https://www.instagram.com/shubhampatelllllll?igsh=MXNtdHZmb3Fhdmg2cg=="
+target="_blank">
+<i class="fab fa-instagram"></i>
+Instagram
+</a>
+
+<a class="btn youtube"
+href="https://youtube.com/@shubham_ythu?si=NzAPpLI6quGmhMVB"
+target="_blank">
+<i class="fab fa-youtube"></i>
+YouTube
+</a>
